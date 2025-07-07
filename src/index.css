@@ -1,0 +1,713 @@
+.container1{
+  margin: 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image:linear-gradient(#0A0F0D,#2D4F4A,#8DB1A4);
+}
+.container11{
+  position: absolute;
+  height: 40%;
+  width: 30%;
+  display: flex;
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+}
+.container11:hover{
+  transition: all 1s ease-in-out;
+  transform: scale(1.2);
+  background-color: black;
+  box-shadow: 1px 1px 40px lavender;
+}
+.container11 input:hover{
+  border-color:blue;
+}
+.container11 input{
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size:larger;
+}
+.container11 button{
+  position: absolute;
+  bottom: 20px;
+  border-radius: 20px;
+  width: 100px;
+}
+.container111{
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+}
+.main{
+  position: relative; 
+  height: 100vh;
+  width: 100vw;
+}
+.input1{
+  width: 400px;
+  position: absolute;
+  right: 80px;
+  top: 25px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: larger;
+}
+.main1 h1{
+  position: absolute;
+  left: 300px;
+  font-family:'Times New Roman', Times, serif;
+}
+.main2{ 
+  position: absolute;
+  color: black;
+  height: 80vh;
+  width: 50vw;
+}
+.main21{
+  top: 20px;
+  left: 50px;
+  position: absolute;
+}
+.main22{
+  position: absolute;
+  font-size: x-large;
+  top: 180px;
+  left:50px ;
+}
+.main23{
+  font-size: x-large;
+  position: absolute;
+  top:250px ;
+  left:40px ;
+  width: 40vw;
+}
+.main233{
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+.img1{
+  position: absolute;
+  top: 500px;
+  height: 100px;
+  width: 100px;
+}
+.img22{
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  border-radius: 30px;
+  left: 30px;
+}
+.img23{
+  position: absolute;
+  height: 60px;
+  width: 30px;
+  border-radius: 30px;
+  left: 120px;
+}
+.img2{
+  position: absolute;
+  top: 500px;
+  height: 100px;
+  width: 100px;
+}
+.imgback1{ 
+  height: 100vh;
+  width: 100vw;
+}
+ .main21 h1{
+  font-size: 2cm;
+}
+.img2 p{
+  position: absolute;
+}
+.mainbut{
+  position: absolute;
+  top: 380px;
+  width:250px ;
+  border-radius: 90px;
+  height: 30px;
+  left: 130px;
+}
+.para1{
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}.para2{
+  position: absolute;
+  left: 130px;
+  top: 550px;
+}
+.img2:hover{
+  filter: drop-shadow(1px 1px 20px red);
+}
+.img1:hover{
+   filter: drop-shadow(1px 1px 20px red);
+}
+.nav{
+background-image: linear-gradient(white,Gray);
+  height: 200vh;
+width: 100vw;
+position: relative;
+}
+.nav1{
+  display: flex;;
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+align-items: center;
+}
+.nav1 button{
+  background-color: gray;
+  border-radius: 30px;
+  height: 30px;
+}
+.nav button:hover{
+  background-color: red;
+  transform: scale(1.07);
+}
+.nav11{
+  text-decoration: none;
+  color: white;
+  font-size:medium;
+}
+.nav12{
+  text-decoration: none;
+  color: white;
+  font-size:medium;
+}
+.nav13{
+  text-decoration: none;
+  color: white;
+  font-size:medium;
+}
+.shoe p{
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  font-size:1.5cm;
+}
+.shoeimg{
+  border-radius: 30px;
+  position: absolute;
+  right: 360px;
+  top: 170px;
+  height: 50vh;
+}
+.shoe1{
+  position: absolute;
+  top: 160px;
+  left: 120px;
+}
+.shoe2 td{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.shoe2{
+  position: absolute;
+  top: 370px;
+  left: 100px;
+}
+.sa{
+  position: absolute;
+  top: 220px;
+  right: 30px;
+  justify-content: space-around;
+  height: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.sa button{
+  border-radius: 30px;
+}
+.sa button:hover{
+  background-color: black;
+  color: white;
+}
+.sa1{
+  position: absolute;
+  top: 150px;
+  right: 270px;
+  font-size: x-large;
+}
+.sa2{
+  position: absolute;
+  top: 270px;
+  right: 200px;
+  color: rgb(46, 46, 40);
+  font-size:medium;
+}
+.sa3{
+  position: absolute;
+  top: 330px;
+  right: 0px;
+}
+.sa3 td{
+   padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.sa4{
+  position: absolute;
+  top: 480px;
+  right: 130px;
+}
+.sa4 select{
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: medium;
+}
+.sa5{
+  position: absolute;
+  top: 520px;
+  right: 130px;
+}
+.sa5 button{
+  background-color: rgb(228, 228, 37);
+  color: #0A0F0D;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: medium;
+}
+.sa6{
+   position: absolute;
+  top: 560px;
+  right: 130px;
+}
+.sa6 button{
+  background-color: rgb(253, 181, 13);
+  color: #0A0F0D;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: medium;
+}
+.sa7{ 
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  top: 190vh
+}
+
+.sa8{
+  position: absolute;
+  top: 600px;
+  right: 130px;
+}
+.sa8 button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: medium;
+}
+.hr1{
+  position: absolute;
+  top: 690px;
+  height: 10px;
+  width: 100vw;
+  border-color: black;
+}
+.nxt{
+  height: 500px;
+  left: 60px;
+  width: 350px;
+  background-color: white;
+  border-radius: 30px;
+  position: absolute;
+  top: 790px;
+}
+.nxt1img{
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  height: 200px;
+  width: 230px;
+  border-radius: 30px;
+}
+.nxt1h3{
+  position: absolute;
+  left: 35px;
+  top: 180px;
+  font-size:xx-large;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nxt1 h4{
+  position: absolute;
+  left: 35px;
+  top: 240px;
+}
+.nxt1 h5{
+  color: green;
+   position: absolute;
+  left: 35px;
+  top: 290px;
+}
+.nxt1but button{
+  position: absolute;
+  background-color: red;
+  border-radius: 1px;
+  color: white;
+  top: 340px;
+  left: 35px;
+  height: 30px;
+  width: 270px;
+}
+.nxt1 p{
+  position: absolute;
+  top: 360px;
+  left: 28px;
+  font-size: x-large;
+}
+.prime{
+  color: skyblue;
+  top: 380px;
+  left: 30px;
+  font-size: x-large;
+  position: absolute;
+}
+.add button{  
+  background-color: orange;
+  position: absolute;
+  top: 450px;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  left: 20px;
+}
+.buy button{
+  background-color: orange;
+  position: absolute;
+  top: 450px;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  left: 190px;
+}
+.nxt2{
+  left: 580px;
+  height: 500px;
+  width: 350px;
+  background-color:white;
+  position: absolute;
+  top: 790px;
+  border-radius: 30px;
+}
+.nxt2img{
+  position: absolute;
+  left: 50px;
+  top: 15px;
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+.nxt2h3{
+  position: absolute;
+  left: 35px;
+  top: 180px;
+  font-size:xx-large;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nxt2 h4{
+  position: absolute;
+  left: 35px;
+  top: 240px;
+}
+.nxt2 h5{
+  color: green;
+   position: absolute;
+  left: 35px;
+  top: 290px;
+}
+.nxt2but button{
+  position: absolute;
+  background-color: red;
+  border-radius: 1px;
+  color: white;
+  top: 340px;
+  left: 35px;
+  height: 30px;
+  width: 270px;
+}
+.nxt2 p{
+  position: absolute;
+  top: 360px;
+  left: 28px;
+  font-size: x-large;
+}
+.prime1{
+  color: skyblue;
+  top: 158.5vh;
+  left: 610px;
+  font-size: x-large;
+  position: absolute;
+}
+.add1 button{  
+  background-color: orange;
+  position: absolute;
+  top: 168vh;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  left: 610px;
+}
+.buy1 button{
+  background-color: orange;
+  position: absolute;
+  top: 168vh;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  left: 770px;
+} 
+.nxt3{
+  left: 1100px;
+  height: 500px;
+  width: 350px;
+  background-color:white;
+  position: absolute;
+  top: 790px;
+  border-radius: 30px;
+}
+.nxt3img{
+  position: absolute;
+  left: 50px;
+  top: 15px;
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+.nxt3h3{
+  position: absolute;
+  left: 35px;
+  top: 180px;
+  font-size:xx-large;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nxt3 h4{
+  position: absolute;
+  left: 35px;
+  top: 240px;
+}
+.nxt3 h5{
+  color: green;
+   position: absolute;
+  left: 35px;
+  top: 290px;
+}
+.nxt3but button{
+  position: absolute;
+  background-color: red;
+  border-radius: 1px;
+  color: white;
+  top: 340px;
+  left: 35px;
+  height: 30px;
+  width: 270px;
+}
+.nxt3 p{
+  position: absolute;
+  top: 360px;
+  left: 28px;
+  font-size: x-large;
+}
+.prime3{
+  color: skyblue;
+  top: 158.5vh;
+  left: 1130px;
+  font-size: x-large;
+  position: absolute;
+}
+.add3 button{  
+  background-color: orange;
+  position: absolute;
+  top: 168vh;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  left: 1130px;
+}
+.buy3 button{
+  background-color: orange;
+  position: absolute;
+  top: 168vh;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  left: 1290px;
+} 
+.shoeimg:hover{
+  transition: all 0.5s ease-out;
+  transform:rotate(10deg) ;
+  box-shadow: 5px 5px 40px black;
+  cursor: pointer;
+}
+.nxt:hover{
+  transition: all 0.5s ease-out;
+  transform:scale(1.05);
+  box-shadow: 1px 1px 80px gray;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.nxt1 img:hover{
+   transition: all 0.5s ease-out;
+  transform:scale(1.05);
+  box-shadow: 5px 5px 40px gray;
+  cursor: pointer;
+}
+.nxt2:hover{
+  transition: all 0.5s ease-out;
+  transform:scale(1.05);
+  box-shadow: 1px 1px 80px gray;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.nxt2 img:hover{
+   transition: all 0.5s ease-out;
+  transform:scale(1.05);
+  box-shadow: 5px 5px 40px gray;
+  cursor: pointer;
+}
+.nxt3:hover{
+  transition: all 0.5s ease-out;
+  transform:scale(1.05);
+  box-shadow: 1px 1px 80px gray;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.nxt3 img:hover{
+   transition: all 0.5s ease-out;
+  transform:scale(1.05);
+  box-shadow: 5px 5px 40px gray;
+  cursor: pointer;
+}
+.noimg{
+  height: 100vh;
+  width: 100vw;
+}
+.no1 button{
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  width: 200px;
+  border-radius: 30px;
+  height: 40px;
+  background-color: black;
+}
+.no2{
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+.ca{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.co{
+  height: 100vh;
+  width: 100vw;
+}
+.ca1 h1{
+  position: absolute;
+  top: -10px;
+  font-size: 3cm;
+  left: 70px;
+  letter-spacing: 10px;
+}
+.ca1 h1:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in;
+}
+.cabut1{
+  top: 70%;
+  position: absolute;
+  left: 30%;
+}
+.cabut1 button{
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: 3px 3px black;
+  font-size: large;
+  background-color: rgb(244, 239, 239);
+  letter-spacing: 2px;
+}
+.cabut1 button:hover{
+  transform: scale(1.07);
+  cursor:progress;
+  background-color: red;
+  color: white;
+}
+#caimg1{
+  border-radius: 60px;
+  position: absolute;
+  height: 65px;
+  top: 45%;
+  width: 60px;
+  left: 21%;
+}
+#caimg1:hover{
+  transform: scale(2);
+  transition: all 0.5 ease-in-out;
+  cursor: pointer;
+}
+#caimg2{
+  border-radius: 90px;
+  position: absolute;
+  height: 85px;
+  top: 44%;
+  width: 110px;
+  left: 33%;
+}
+#caimg2:hover{
+  transform: scale(2);
+  transition: all 0.5 ease-in;
+  cursor: pointer;
+}
+#caimg3{
+  border-radius: 30px;
+  position: absolute;
+  height: 140px;
+  top: 40%;
+  width: 100px;
+  left: 47%;
+}
+#caimg3:hover{
+  transform: scale(2);
+  transition: all 0.5 ease-in;
+  cursor: pointer;
+}
+
